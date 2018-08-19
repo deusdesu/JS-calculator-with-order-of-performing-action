@@ -1,0 +1,49 @@
+body{
+	background-color: #666;
+}
+#Buttons{
+	width: 480px;
+	height: 490px;
+	background-color: #000;
+}
+.button{
+	width: 115px;
+	height: 77px;
+	background-color: #aaa;
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-align: center;
+	line-height: 77px;
+	font-size:30px;
+}
+.button:hover, .number:hover{
+	background-color: red;
+}
+.number{
+	width: 115px;
+	height: 77px;
+	background-color: #ddd;
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+	text-align: center;
+	line-height: 77px;
+	font-size:30px;
+}
+#Numbers{
+	width: 472px;
+	height: 100px;
+	background-color: #ddd;
+	border: 4px solid #000;
+	border-bottom: 0px solid #000;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: right;
+}
+#conteiner{
+	width: 480px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
